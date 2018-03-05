@@ -14,6 +14,7 @@ gem 'puma'
 group :development, :test do
   gem 'byebug'
   gem 'guard'
+  gem 'capybara'
   gem 'guard-rspec'
   gem 'guard-puma'
   gem 'rspec'
@@ -21,6 +22,7 @@ group :development, :test do
   gem 'shoulda-matchers'
   gem 'factory_girl_rails'
   gem 'shoulda-callback-matchers'
+  gem 'rb-fsevent'
 end
 
 group :development do

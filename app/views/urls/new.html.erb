@@ -1,0 +1,7 @@
+<%= @errors %>
+
+<%= form_for(Url.new) do |f| %>
+
+	<%=f.text_field :long_url, placeholder: "Enter long url here"%>
+	  <%= f.submit "Submit!", class: "button"%>
+<% end %>
